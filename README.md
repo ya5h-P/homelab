@@ -6,11 +6,11 @@ Self-hosted infrastructure running on a headless Linux server on my home network
 
 | Layer        | Tool                                                |
 | ------------ | --------------------------------------------------- |
-| Host OS      | Ubuntu server, static IP `192.168.0.115`             |
+| Host OS      | Ubuntu server, static IP `192.168.0.115`            |
 | Containers   | Docker + Docker Compose, Watchtower for auto-update |
 | Cloud / sync | Nextcloud (custom image)                            |
 | File sharing | Samba (SMB) for Nautilus / Android clients          |
-| Remote       | Tailscale mesh VPN with HTTPS certs                 |
+| Remote       | Wake-on-LAN from phone (Android WoL app, LAN only)  |
 | Power        | Wake-on-LAN triggered from phone via Termux         |
 | Maintenance  | `unattended-upgrades` for security patches          |
 
