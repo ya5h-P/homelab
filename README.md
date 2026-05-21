@@ -47,8 +47,6 @@ Server sleeps when idle. I wake it from my phone over LAN using a standard WoL A
 │   └── config/               # config.php overrides
 ├── samba/
 │   └── smb.conf
-├── scripts/
-│   └── backup.sh             # nightly rsync to external drive
 └── docs/
     └── debugging-notes.md    # things that broke and how I fixed them
 ```
