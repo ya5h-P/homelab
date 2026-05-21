@@ -10,9 +10,8 @@ Self-hosted infrastructure running on a headless Linux server on my home network
 | Containers   | Docker + Docker Compose, Watchtower for auto-update |
 | Cloud / sync | Nextcloud (custom image)                            |
 | File sharing | Samba (SMB) for Nautilus / Android clients          |
-| Remote       | Tailscale mesh VPN  |
-| Power        | Wake-on-LAN from phone (Android WoL app, LAN only)
-         |
+| Remote       | Tailscale mesh VPN                                  |
+| Power        | Wake-on-LAN from phone (Android WoL app, LAN only)  |
 | Maintenance  | `unattended-upgrades` for security patches          |
 
 ## Hardware
