@@ -45,10 +45,9 @@ Server sleeps when idle. I wake it from my phone over LAN using a standard WoL A
 ├── nextcloud/
 │   ├── Dockerfile            # ffmpeg + cron + Recognize
 │   └── config/               # config.php overrides
-├── samba/
-│   └── smb.conf
-└── docs/
-    └── debugging-notes.md    # things that broke and how I fixed them
+└── samba/
+    └── smb.conf
+
 ```
 
 ## Things that broke (and how I fixed them)
