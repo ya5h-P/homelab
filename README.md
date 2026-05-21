@@ -1,6 +1,6 @@
 # Homelab
 
-Self-hosted infrastructure running on a headless Linux server on my home network. Primary services: Nextcloud (photos, files, sync), SMB shares for LAN clients, Tailscale for remote access, qBittorrent behind a kill switch.
+Self-hosted infrastructure running on a headless Linux server on my home network. Primary services: Nextcloud (photos, files, sync), SMB shares for LAN clients, Tailscale for remote access, qBittorrent.
 
 ## Stack
 
