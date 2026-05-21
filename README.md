@@ -61,4 +61,3 @@ The Nextcloud Memories Android app refuses to talk to a server with a self-signe
 
 - **Recognize models silently failing to download** — the install script times out behind some networks; mirror them into the image at build time instead of relying on runtime download.
 - **Preview Generator running forever on first pass** — schedule it in batches via cron (`occ preview:pre-generate`) instead of one giant job.
-- **TLS mismatch on Memories Android app** — switched from self-signed to Tailscale-issued certs.
