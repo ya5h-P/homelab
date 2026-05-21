@@ -37,10 +37,6 @@ See [`nextcloud/Dockerfile`](./nextcloud/Dockerfile) and [`docker-compose.yml`](
 
 Server sleeps when idle. I wake it from my phone over LAN using a standard WoL Android app — works fine, just slower than I'd like to enumerate and send the packet. No remote wake when I'm off-network since I don't run an always-on device to relay the magic packet; Tailscale handles access once the server is already up.
 
-### Tailscale HTTPS
-
-The Nextcloud Memories Android app refuses to talk to a server with a self-signed cert. Fix: enable Tailscale HTTPS (`tailscale cert`) and point Nextcloud's `trusted_domains` and `overwrite.cli.url` at the `*.ts.net` hostname. The app is happy, and the server stays unreachable from the public internet.
-
 ## Layout
 
 ```
